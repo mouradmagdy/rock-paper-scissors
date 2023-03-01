@@ -44,6 +44,7 @@ function game(){
     let playerScore=0;
     let ans;
     for (let i=0;i<5;i++){
+        let input=window.prompt("what is your choice?")
     //how to take input from user  //  let input=prompt("What is your choice?");
         ans=playRound(input,getComputerChoice());
         console.log(ans)
